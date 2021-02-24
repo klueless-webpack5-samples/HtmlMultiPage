@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "transpile": "npx swc src -d dist",
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack serve",
+    "build:production": "webpack --mode production"
   },
   "keywords": [],
   "author": "David Cruwys <david@ideasmen.com.au> (https://appydave.com/)",
